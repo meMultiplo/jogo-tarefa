@@ -25,4 +25,8 @@ public class Menu : MonoBehaviour
         //carregando a cena Game
         SceneManager.LoadScene(nomeCena);
     }
+    public void QuitGame()
+    {
+        UnityEditor.EditorApplication.isPlaying = false;
+    }
 }
